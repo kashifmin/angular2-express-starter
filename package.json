@@ -22,9 +22,9 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/compiler-cli": "2.2.3",
     "@angular/common": "2.2.3",
     "@angular/compiler": "2.2.3",
+    "@angular/compiler-cli": "2.2.3",
     "@angular/core": "2.2.3",
     "@angular/forms": "2.2.3",
     "@angular/http": "2.2.3",
@@ -53,6 +53,7 @@
     "express": "^4.13.4",
     "express-jwt": "^3.3.0",
     "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.7.4",
     "node-uuid": "^1.4.7",
     "normalize.css": "^5.0.0",
     "path": "^0.12.7",
@@ -64,6 +65,8 @@
     "zone.js": "^0.6.23"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^2.2.1",
+    "codelyzer": "1.0.0-beta.3",
     "concurrently": "^3.1.0",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
@@ -74,7 +77,6 @@
     "karma-remap-istanbul": "^0.2.1",
     "nodemon": "^1.11.0",
     "protractor": "4.0.9",
-    "codelyzer": "1.0.0-beta.3",
     "webdriver-manager": "10.2.5"
   }
 }

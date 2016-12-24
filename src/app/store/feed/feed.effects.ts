@@ -19,7 +19,7 @@ export class FeedEffects {
 
       return this.http.post('/api/feed', action.payload)
         .catch(() => Observable.of(({ type: FEED_ADD_FAIL })))
-        .map((response: Response) => response.json())
+      //  .map((response: Response) => response.json())
         .map((response) => ({type: FEED_ADD_SUCCESS, payload: response}));
 
     });

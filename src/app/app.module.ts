@@ -10,6 +10,13 @@ import { routing } from './app.routing';
 import { store, effects } from './store';
 import { SharedModule } from './shared/shared.module';
 
+export function useLogMonitorFunc() {
+  return useLogMonitor({
+        visible: true,
+        position: 'right'
+      });
+}
+
 @NgModule({
   declarations: [
     AppComponent
